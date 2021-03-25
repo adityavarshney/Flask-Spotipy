@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "flask-tutorial-1"
+version = "0.1.0"
+[tool.poetry.dependencies]
+flask = "^1.1"
+python = "^3.8"
+spotipy = "^2.16.1"
+[tool.poetry.dev-dependencies]
